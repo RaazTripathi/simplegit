@@ -1,0 +1,105 @@
+ create database Practice
+
+ use Practice
+ 
+ create table emp_Company
+ (
+	ename varchar(10),
+	cname varchar(10),
+	salary int,
+	jdate datetime2
+ )
+ 
+  create table employee
+ (
+	ename varchar(10),
+	city varchar(10)
+ ) 
+
+create table company
+(
+	cname varchar(10),
+	city varchar(10)
+)
+
+create table manager
+(
+ename varchar(10),
+mname varchar(10)
+)
+
+create table emp_shift
+(
+	ename varchar(10),
+	shift varchar(1)
+)
+
+insert into employee values ('ANIL','NAGPUR')
+insert into employee values ('SHANKAR','BOMBAY')
+insert into employee values ('JAYA','MADRAS')
+insert into employee values ('SUNIL','BOMBAY')
+insert into employee values ('VIJAY','DELHI')
+insert into employee values ('PRAKASH','CALCUTTA')
+insert into employee values ('AJAY','MADRAS')
+SELECT * FROM employee
+
+insert into emp_Company values ('ANIL','ACC',1500,'1-MAY-89')
+insert into emp_Company values ('SHANKAR','TATA',2000,'10-JUL-90')
+insert into emp_Company values ('JAYA','CMC',1800,'7-JUN-91')
+insert into emp_Company values ('SUNIL','CMC',1700,'1-JAN-88')
+insert into emp_Company values ('VIJAY','TATA',5000,'3-JAN-88')
+insert into emp_Company values ('PRAKASH','TATA',3000,'27-MAY-89')
+insert into emp_Company values ('AJAY','ACC',8000,'30-APR-95')
+insert into emp_Company values ('AMOL','ACC',1000,'17-MAR-95')
+SELECT * FROM emp_Company
+
+insert into Company values ('ACC','MADRAS')
+insert into Company values ('TATA','BOMBAY')
+insert into Company values ('ACC','NAGPUR')
+insert into Company values ('CMC','BOMBAY')
+insert into Company values ('CMC','MADRAS')
+insert into Company values ('TATA','DELHI')
+SELECT * FROM Company
+
+insert into manager values ('ANIL','AJAY')
+insert into manager values ('SHANKAR','VIJAY')
+insert into manager values ('JAYA',NULL)
+insert into manager values ('SUNIL','JAYA')
+insert into manager values ('VIJAY',NULL)
+insert into manager values ('PRAKASH','SHANKAR')
+insert into manager values ('AJAY',NULL)
+SELECT * FROM manager
+
+insert into emp_shift values ('ANIL','A')
+insert into emp_shift values ('SUNIL','B')
+insert into emp_shift values ('VIJAY','B')
+insert into emp_shift values ('PRAKASH','C')
+SELECT * FROM emp_shift
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
