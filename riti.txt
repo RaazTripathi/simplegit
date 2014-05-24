@@ -7,5 +7,5 @@ www.isi.edu/~hovy
 
 
 Hi 
-this is Raaz Tripathi
+this is Raaz Tripathi  from knp 
 Great  here you are done with git .
