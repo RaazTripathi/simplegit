@@ -1,0 +1,6 @@
+Natural Language Processing:
+A Brief Review
+Eduard Hovy
+Information Sciences Institute
+University of Southern California
+www.isi.edu/~hovy
